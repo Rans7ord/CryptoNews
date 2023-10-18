@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles (Can be shared across pages) */
+header {
+    font-size: larger;
+    font-weight: bold;
+    background-image:url("https://th.bing.com/th/id/R.4574aef2988d4b75b3649d2cb260a4b2?rik=Iw0DKGlwzX2zeQ&riu=http%3a%2f%2fpsychtimes.com%2fwp-content%2fuploads%2f2023%2f03%2fDepositphotos_344054554_L-1024x681.jpg&ehk=ZciULIVDFY%2blaSU3YaTCwpnIUW95GKXgqD5hltXK5Tc%3d&risl=&pid=ImgRaw&r=0");
+    color: #fff;
+    padding: 20px 5px;
+    position: static;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+main{
+    font-size: medium;
+    font-weight:300;
+}
+
+/* Section Styles (Customize these for each page) */
+section {
+    
+    padding: 30px 0;
+}
+
+section h2 {
+    color: #333;
+}
+
+/* Footer Styles (Can be shared across pages) */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Link Styles (Can be shared across pages) */
+a {
+    color: #007bff;
+    text-decoration: underline;
+}

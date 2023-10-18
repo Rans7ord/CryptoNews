@@ -1,0 +1,140 @@
+/* styles.css */
+
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li, form, input, label, button, textarea {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the whole page */
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header section (you can customize this further) */
+/* Header Styles (Can be shared across pages) */
+header {
+    font-size: larger;
+    font-weight: bold;
+    background-image:url("https://th.bing.com/th/id/R.4574aef2988d4b75b3649d2cb260a4b2?rik=Iw0DKGlwzX2zeQ&riu=http%3a%2f%2fpsychtimes.com%2fwp-content%2fuploads%2f2023%2f03%2fDepositphotos_344054554_L-1024x681.jpg&ehk=ZciULIVDFY%2blaSU3YaTCwpnIUW95GKXgqD5hltXK5Tc%3d&risl=&pid=ImgRaw&r=0");
+    color: #fff;
+    padding: 20px 5px;
+    position: static;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header h1,h2,h3 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Style the main content section */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the Contact Us section */
+.contact {
+    text-align: center;
+    margin: 20px;
+}
+
+.contact h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Style the contact form */
+.contact-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Style the contact information section */
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 20px;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+/* Style the footer section (you can customize this further) */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+a:hover{
+text-decoration: underline;
+}
